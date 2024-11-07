@@ -16,7 +16,9 @@ public class WeatherTracker {
 
         // Loop through each city
         for (int i = 0; i < 3; i++) {
+//            total temperature values are initialized
             double total = 0;
+//            highest temperature is initialized
             double highestTemperature = temperatures[i][0];
             // Take the total and find the highest temperature for each city through another loop
             for (int j = 0; j < 7; j++) {
